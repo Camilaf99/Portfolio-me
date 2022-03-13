@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #f5f3f0;
+}
+header {
+    padding: 20px;
+    font-family: 'Nunito', arial, sans-serif; 
+    background-color: #fffaf4;
+    color: #000000;
+}
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+header div ul {
+    list-style-type: none;
+}
+
+header div ul li{
+    display: inline-block;
+    margin-left: 25px;
+    color: #ffffff;
+    padding: 10px;
+    background-color: rgb(219, 200, 171);
+    font-family:'Nunito', arial, sans-serif; 
+}
+header div ul li a:hover {
+    transition: all 0.25s ease-in;
+}
+.hero {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url(./images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.picture-left {
+    float: right;
+    margin-right: 25px;
+    margin-left: 10px;
+    padding-top: 10px;
+    
+}
+.information-about-me img {
+    max-height: 200px;
+    padding: 0px  ;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.picture-element {
+   float: left;
+   margin-right: 25px;
+   margin-left: 10px;
+   margin-top: 30px;
+}
+.about-me {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+h2 {
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.information-about-me h2 {
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    padding: 10px;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 0 80px 10px 80px;
+    display: inline-block;
+    border-bottom: 3px solid;
+    border-color: #000000;
+    color: #ffffff;
+}
+.information-about-me {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    background-color: rgb(219, 200, 171);
+    color: #ffffff;
+}
+
+.contact-me {
+    margin-left: 20px;
+    padding: 20px;
+    clear: both;
+    float: left;
+    width: 20%;
+    height: 100%;
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    background-color: rgb(219, 200, 171);
+}
+.contact-me p {
+    font-size: 25px;
+    font-family: 'Nunito', Arial, Helvetica, sans-serif, ;
+    text-align: center;
+}
+.contact-me-card {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.contact-me-card img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+.contact-me-card h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.portfolio {
+    /*this is the innermost part of the box, by applying the width and margin, it tells the content how to flow in the page without overlapping the pictures*/
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.portfolio-item-card {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    background-color: rgb(219, 200, 171);
+    color: #ffffff;
+}
+
+/*float is to make sure the pictures added in html is on the LEFT of the page with the margin of 25*/
+.float-left {
+    float: right;
+    margin-right: 25px;
+}
+.portfolio-item-card img {
+    max-height: 200px;
+}
+
+.portfolio-item-card h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+.resume-element img {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 25px;
+    background-position: center;
+    padding: 20px;
+}
+footer {
+    text-align: right;
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    
+}
