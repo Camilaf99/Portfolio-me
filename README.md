@@ -84,4 +84,4 @@ You are required to submit BOTH of the following for review:
 
 * The URL of the deployed application. https://camilaf99.github.io/Portfolio-me/ 
 
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project. git@github.com:Camilaf99/Portfolio-me.git 
+* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project. 
