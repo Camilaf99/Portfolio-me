@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    padding: 20px;
+    padding: 18px;
     font-family: 'Updock', cursive; 
     background-color: #fffaf4;
     color: #000000;
@@ -17,14 +17,14 @@ header {
 
 header h1 {
     display: inline-block;
-    font-size: 6vw;
+    font-size: 4vw;
 }
 
 header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
 }
 
 header div ul {
@@ -83,7 +83,7 @@ h2 {
 
 .information-about-me h2 {
     padding: 10px;
-    font-size: 6vw;
+    font-size: 4vw;
     text-align: center;
     margin-bottom: 20px;
     padding: 0 80px 10px 80px;
@@ -157,7 +157,7 @@ h2 {
 
 .portfolio-container h2 {
     padding: 10px;
-    font-size: 6vw;
+    font-size: 4vw;
     text-align: center;
     margin-bottom: 20px;
     padding: 0 80px 10px 80px;
@@ -191,7 +191,7 @@ h2 {
 
 .portfolio-item-card h2 {
     margin-bottom: 20px;
-    font-size: 6vw;
+    font-size: 4vw;
 }
 
 footer {
